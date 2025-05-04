@@ -1,0 +1,99 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamma Mia Eats - Cardápio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="restaurant-info">
+                <h1>Mamma Mia Eats</h1>
+                <p class="tagline">Autêntica Culinária Italiana</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu-nav">
+        <div class="nav-content">
+            <button class="category-btn active" data-category="all">
+                <i class="fas fa-utensils"></i>
+                <span>Menu Completo</span>
+            </button>
+            <button class="category-btn" data-category="antipasti">
+                <i class="fas fa-cheese"></i>
+                <span>Antipasti</span>
+            </button>
+            <button class="category-btn" data-category="pasta">
+                <i class="fas fa-pasta"></i>
+                <span>Pasta</span>
+            </button>
+            <button class="category-btn" data-category="pizza">
+                <i class="fas fa-pizza-slice"></i>
+                <span>Pizza</span>
+            </button>
+            <button class="category-btn" data-category="dolci">
+                <i class="fas fa-ice-cream"></i>
+                <span>Dolci</span>
+            </button>
+            <button class="category-btn" data-category="bevande">
+                <i class="fas fa-wine-glass-alt"></i>
+                <span>Bevande</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="menu-section">
+        <div class="menu-grid">
+            <!-- Antipasti -->
+            <div class="menu-item" data-category="antipasti">
+                <div class="item-image">
+                    <img src="https://example.com/bruschetta.jpg" alt="Bruschetta al Pomodoro">
+                    <div class="item-badge">Antipasti</div>
+                </div>
+                <div class="item-content">
+                    <h3>Bruschetta al Pomodoro</h3>
+                    <div class="item-description">
+                        <p>Pão italiano grelhado com tomates frescos, manjericão e azeite extra virgem</p>
+                    </div>
+                    <div class="item-footer">
+                        <span class="price">R$ 32,00</span>
+                        <button class="order-btn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mais itens do menu seguem o mesmo padrão -->
+        </div>
+    </main>
+
+    <footer class="restaurant-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Mamma Mia Eats</h3>
+                <p><i class="fas fa-clock"></i> Terça a Domingo: 18h - 23h</p>
+                <p><i class="fas fa-map-marker-alt"></i> Rua da Itália, 123</p>
+                <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
